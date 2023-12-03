@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photon Club</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- For PNG -->
+    <link rel="icon" href="LOGO1.png" type="image/png" />
+
+    <!-- For SVG 
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />-->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="logo2.png" alt="Event Banner" />
+      </header>
+
+      <h1>Upcoming Events</h1>
+
+      <div class="event-cards">
+        <div class="event-card">
+          <img src="monopoly.PNG" alt="Event 1" />
+          <div class="event-card-content">
+            <h2>Monopoly</h2>
+            <p>Description of Event 1. Hover for more details.</p>
+          </div>
+          <button id="registerButton">Register Now</button>
+          <button id="moreInfoButton" onclick="openMoreInfoPage('page1.html')">
+            More Info
+          </button>
+        </div>
+
+        <div class="event-card">
+          <img src="radiance.png" alt="Event 2" />
+          <div class="event-card-content">
+            <h2>Radiance</h2>
+            <p>Description of Event 2. Hover for more details.</p>
+          </div>
+          <button id="registerButton1">Register Now</button>
+          <button id="moreInfoButton1" onclick="openMoreInfoPage('page2.html')">
+            More Info
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="dark-mode-toggle">
+      <label>
+        <span id="themeText">Toggle Theme: Light</span>
+        <input
+          type="checkbox"
+          id="darkModeToggle"
+          onchange="toggleDarkMode()"
+        />
+        <span class="slider"></span>
+      </label>
+    </div>-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
